@@ -9,11 +9,12 @@ export const About: React.FC = () => {
           <div className="relative">
             <div className="absolute -top-10 -left-10 w-40 h-40 border border-[#D4AF37]/20 rounded-full animate-spin-slow"></div>
             <div className="relative z-10 border-[10px] border-black p-2 bg-neutral-800">
-              <img 
-                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1200" 
-                alt="Studio Atmosphäre" 
-                className="w-full grayscale hover:grayscale-0 transition-all duration-700"
-              />
+             <img 
+  src="./images/ab.png" 
+  alt="Studio Atmosphäre"
+  className="w-full max-h-[520px] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+/>
+
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 gold-bg flex items-center justify-center text-black font-serif text-3xl italic">
               Glamour

@@ -5,7 +5,7 @@ export const Hero: React.FC = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background Overlay */}
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center opacity-40 scale-105 animate-[pulse_8s_infinite]"></div>
+      <div className="absolute inset-0 bg-[url('./images/hero.png')] bg-cover bg-center opacity-40 scale-105 animate-[pulse_8s_infinite]"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black via-black/40 to-black"></div>
 
       <div className="container mx-auto px-6 relative z-10 text-center">
